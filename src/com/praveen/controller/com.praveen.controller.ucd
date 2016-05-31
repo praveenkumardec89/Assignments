@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="873,607" id="com.praveen.controller" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D313020436865737350726F626C656D">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="ChessBoard" location="451,396" size="194,117" id="com.praveen.utils/ChessBoard" runTimeClassModel="ChessBoard(II[Lcom.praveen.resources.ChessPiece;),searchLayouts()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="171,54">
+      <children xsi:type="editmodel:MethodEditModel" name="ChessBoard" id="com.praveen.utils/ChessBoard#ChessBoard(II[Lcom.praveen.resources.ChessPiece;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="buildChessPiecePermutations" id="com.praveen.utils/ChessBoard#buildChessPiecePermutations(Ljava.util.Set;Ljava.util.List;Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="searchLayouts" id="com.praveen.utils/ChessBoard#searchLayouts()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard-Soyatec::Import->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="156,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="37,171"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.1 //@children.0/@sourceConnections.0" name="Results" location="570,154" size="161,171" id="com.praveen.utils/Results">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Results" id="com.praveen.utils/Results#Results()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addLayout" id="com.praveen.utils/Results#addLayout(Lcom.praveen.utils.ChessLayout;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumAttempts" id="com.praveen.utils/Results#getNumAttempts()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumDuplicates" id="com.praveen.utils/Results#getNumDuplicates()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumUniqueLayouts" id="com.praveen.utils/Results#getNumUniqueLayouts()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printLayouts" id="com.praveen.utils/Results#printLayouts(Ljava.io.PrintStream;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.2" name="RequestAndValidateInput" location="50,50" size="202,297" id="com.praveen.validations/RequestAndValidateInput">
+    <children xsi:type="editmodel:CompartmentEditModel" size="167,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="dimensionPattern" id="com.praveen.validations/RequestAndValidateInput#dimensionPattern"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pieceArray" id="com.praveen.validations/RequestAndValidateInput#pieceArray"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="piecePattern" id="com.praveen.validations/RequestAndValidateInput#piecePattern"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="piecesList" id="com.praveen.validations/RequestAndValidateInput#piecesList"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,162">
+      <children xsi:type="editmodel:MethodEditModel" name="addPiece" id="com.praveen.validations/RequestAndValidateInput#addPiece(ILjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDimensions" id="com.praveen.validations/RequestAndValidateInput#getDimensions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPieceArray" id="com.praveen.validations/RequestAndValidateInput#getPieceArray()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPieceList" id="com.praveen.validations/RequestAndValidateInput#getPieceList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPiecesList" id="com.praveen.validations/RequestAndValidateInput#getPiecesList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="requestForInput" id="com.praveen.validations/RequestAndValidateInput#requestForInput()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDimensions" id="com.praveen.validations/RequestAndValidateInput#setDimensions(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPieceArray" id="com.praveen.validations/RequestAndValidateInput#setPieceArray(Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPiecesList" id="com.praveen.validations/RequestAndValidateInput#setPiecesList(Ljava.util.List;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GenerateLayouts" location="298,170" size="192,85" id="com.praveen.controller/GenerateLayouts" runTimeClassModel="main([Ljava.lang.String;),input">
+    <children xsi:type="editmodel:CompartmentEditModel" size="169,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="input" id="com.praveen.controller/GenerateLayouts#input"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="com.praveen.controller/GenerateLayouts#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.controller/GenerateLayouts->com.praveen.utils/ChessBoard*com.praveen.controller/GenerateLayouts->com.praveen.utils/ChessBoard*com.praveen.controller/GenerateLayouts->com.praveen.utils/ChessBoard*com.praveen.controller/GenerateLayouts->com.praveen.utils/ChessBoard*com.praveen.controller/GenerateLayouts->com.praveen.utils/ChessBoard*com.praveen.controller/GenerateLayouts->com.praveen.utils/ChessBoard*com.praveen.controller/GenerateLayouts->com.praveen.utils/ChessBoard*com.praveen.controller/GenerateLayouts->com.praveen.utils/ChessBoard*com.praveen.controller/GenerateLayouts-Soyatec::Import->com.praveen.utils/ChessBoard*com.praveen.controller/GenerateLayouts->com.praveen.utils/ChessBoard*com.praveen.controller/GenerateLayouts->com.praveen.utils/ChessBoard" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="172,85" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="19,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.controller/GenerateLayouts->com.praveen.utils/Results*com.praveen.controller/GenerateLayouts->com.praveen.utils/Results*com.praveen.controller/GenerateLayouts->com.praveen.utils/Results*com.praveen.controller/GenerateLayouts->com.praveen.utils/Results*com.praveen.controller/GenerateLayouts-Soyatec::Import->com.praveen.utils/Results*com.praveen.controller/GenerateLayouts->com.praveen.utils/Results" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="192,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,58"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.controller/GenerateLayouts->com.praveen.validations/RequestAndValidateInput*com.praveen.controller/GenerateLayouts-Soyatec::Import->com.praveen.validations/RequestAndValidateInput*com.praveen.controller/GenerateLayouts->com.praveen.validations/RequestAndValidateInput*com.praveen.controller/GenerateLayouts->com.praveen.validations/RequestAndValidateInput*com.praveen.controller/GenerateLayouts->com.praveen.validations/RequestAndValidateInput*com.praveen.controller/GenerateLayouts-Soyatec::Access->com.praveen.validations/RequestAndValidateInput*com.praveen.controller/GenerateLayouts->com.praveen.validations/RequestAndValidateInput" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Access»" size="84,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="202,162"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

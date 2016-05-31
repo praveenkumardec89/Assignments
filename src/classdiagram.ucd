@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="classdiagram" size="1218,1417" id="com.praveen.utils" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D313020436865737350726F626C656D">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.1 //@children.3/@sourceConnections.2 //@children.1/@sourceConnections.2 //@children.2/@sourceConnections.0" name="ChessLayout" location="915,30" size="216,319" id="com.praveen.utils/ChessLayout" runTimeClassModel="getLayoutText(),removeChessPiece(Lcom.praveen.resources.ChessPiece;),boardLength,placeChessPieceAtPosition(Lcom.praveen.resources.ChessPiece;I),completionAttempt,getColumnsText(),ChessLayout(II),nULL_PIECE,printBoard(),nULL_OFFSET,placePieceInNextAvailablePosition(Lcom.praveen.resources.ChessPiece;),clone(),placeChessPieceAtPosition(Lcom.praveen.resources.ChessPiece;II),hashCode(),placePieceInNextAvailablePosition(Lcom.praveen.resources.ChessPiece;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="141,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="boardLength" id="com.praveen.utils/ChessLayout#boardLength"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="completionAttempt" id="com.praveen.utils/ChessLayout#completionAttempt"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nULL_OFFSET" id="com.praveen.utils/ChessLayout#nULL_OFFSET"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nULL_PIECE" id="com.praveen.utils/ChessLayout#nULL_PIECE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="193,198">
+      <children xsi:type="editmodel:MethodEditModel" name="ChessLayout" id="com.praveen.utils/ChessLayout#ChessLayout(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clone" id="com.praveen.utils/ChessLayout#clone()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnsText" id="com.praveen.utils/ChessLayout#getColumnsText()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLayoutText" id="com.praveen.utils/ChessLayout#getLayoutText()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="com.praveen.utils/ChessLayout#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="placeChessPieceAtPosition" id="com.praveen.utils/ChessLayout#placeChessPieceAtPosition(Lcom.praveen.resources.ChessPiece;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="placeChessPieceAtPosition" id="com.praveen.utils/ChessLayout#placeChessPieceAtPosition(Lcom.praveen.resources.ChessPiece;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="placePieceInNextAvailablePosition" id="com.praveen.utils/ChessLayout#placePieceInNextAvailablePosition(Lcom.praveen.resources.ChessPiece;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="placePieceInNextAvailablePosition" id="com.praveen.utils/ChessLayout#placePieceInNextAvailablePosition(Lcom.praveen.resources.ChessPiece;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printBoard" id="com.praveen.utils/ChessLayout#printBoard()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeChessPiece" id="com.praveen.utils/ChessLayout#removeChessPiece(Lcom.praveen.resources.ChessPiece;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.praveen.utils/ChessLayout@completedLayouts+com.praveen.utils/Results@" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="completedLayouts" location="0,78" id="com.praveen.utils/ChessLayout@completedLayouts+com.praveen.utils/Results@|com.praveen.utils/ChessLayout#completedLayouts" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - completedLayouts" location="810,87" size="98,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="890,115" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="161,78" id="com.praveen.utils/ChessLayout@completedLayouts+com.praveen.utils/Results@|com.praveen.utils/Results#">
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="hash" location="336,97" size="39,23" id=""/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.utils/ChessLayout->com.praveen.resources/ChessPiece*com.praveen.utils/ChessLayout-Soyatec::Import->com.praveen.resources/ChessPiece" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,182" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="139,92"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.utils/ChessLayout->com.praveen.resources/NullPiece" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="197,319" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="17,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="ChessBoard" location="197,285" size="194,103" id="com.praveen.utils/ChessBoard" runTimeClassModel="ChessBoard(II[Lcom.praveen.resources.ChessPiece;),searchLayouts()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="171,54">
+      <children xsi:type="editmodel:MethodEditModel" name="buildChessPiecePermutations" id="com.praveen.utils/ChessBoard#buildChessPiecePermutations(Ljava.util.Set;Ljava.util.List;Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="searchLayouts" id="com.praveen.utils/ChessBoard#searchLayouts()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ChessBoard" id="com.praveen.utils/ChessBoard#ChessBoard(II[Lcom.praveen.resources.ChessPiece;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.utils/ChessBoard-Soyatec::Import->com.praveen.resources/ChessPiece*com.praveen.utils/ChessBoard-Soyatec::Import->com.praveen.resources/ChessPiece*com.praveen.utils/ChessBoard-Soyatec::Import->com.praveen.resources/ChessPiece*com.praveen.utils/ChessBoard-Soyatec::Import->com.praveen.resources/ChessPiece*com.praveen.utils/ChessBoard-Soyatec::Import->com.praveen.resources/ChessPiece*com.praveen.utils/ChessBoard-Soyatec::Import->com.praveen.resources/ChessPiece" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="194,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,175"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard-Soyatec::Import->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results*com.praveen.utils/ChessBoard->com.praveen.utils/Results" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="71,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,157"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard-Soyatec::Import->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout*com.praveen.utils/ChessBoard->com.praveen.utils/ChessLayout" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.2/@children.2" label="//@children.1/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="194,31" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,286"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.1 //@children.0/@sourceConnections.0" name="Results" location="179,30" size="161,157" id="com.praveen.utils/Results" runTimeClassModel="printLayouts(Ljava.io.PrintStream;),Results(),getNumDuplicates(),getNumUniqueLayouts(),getNumAttempts(),addLayout(Lcom.praveen.utils.ChessLayout;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Results" id="com.praveen.utils/Results#Results()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addLayout" id="com.praveen.utils/Results#addLayout(Lcom.praveen.utils.ChessLayout;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumAttempts" id="com.praveen.utils/Results#getNumAttempts()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumDuplicates" id="com.praveen.utils/Results#getNumDuplicates()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumUniqueLayouts" id="com.praveen.utils/Results#getNumUniqueLayouts()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printLayouts" id="com.praveen.utils/Results#printLayouts(Ljava.io.PrintStream;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.utils/Results->com.praveen.utils/ChessLayout*com.praveen.utils/Results-Soyatec::Import->com.praveen.utils/ChessLayout" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="161,58" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,47"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.7/@sourceConnections.0 //@children.7/@sourceConnections.1 //@children.1/@sourceConnections.0 //@children.0/@sourceConnections.1" name="ChessPiece" location="510,120" size="139,185" id="com.praveen.resources/ChessPiece" runTimeClassModel="getColumn(),setRow(I),getRow(),setColumn(I),getSymbol(),canAttackPosition(II)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,108">
+      <children xsi:type="editmodel:MethodEditModel" name="canAttackPosition" id="com.praveen.resources/ChessPiece#canAttackPosition(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumn" id="com.praveen.resources/ChessPiece#getColumn()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRow" id="com.praveen.resources/ChessPiece#getRow()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSymbol" id="com.praveen.resources/ChessPiece#getSymbol()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setColumn" id="com.praveen.resources/ChessPiece#setColumn(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRow" id="com.praveen.resources/ChessPiece#setRow(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.praveen.resources/ChessPiece@pieces+com.praveen.utils/ChessBoard@" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="pieces" location="0,144" id="com.praveen.resources/ChessPiece@pieces+com.praveen.utils/ChessBoard@|com.praveen.resources/ChessPiece#pieces" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.3/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - pieces" location="461,243" size="42,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="499,271" size="4,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="189,0" id="com.praveen.resources/ChessPiece@pieces+com.praveen.utils/ChessBoard@|com.praveen.utils/ChessBoard#" roleLabel="//@children.3/@sourceConnections.0/@children.2/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="379,264" size="0,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.praveen.resources/ChessPiece@pieceOffsets+com.praveen.utils/ChessLayout@" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="pieceOffsets" location="139,123" id="com.praveen.resources/ChessPiece@pieceOffsets+com.praveen.utils/ChessLayout@|com.praveen.resources/ChessPiece#pieceOffsets" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.3/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - pieceOffsets" location="656,250" size="73,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="656,222" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,186" id="com.praveen.resources/ChessPiece@pieceOffsets+com.praveen.utils/ChessLayout@|com.praveen.utils/ChessLayout#" roleLabel="//@children.3/@sourceConnections.1/@children.2/@children.1">
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="valueOf" location="867,205" size="53,23" id=""/>
+        <children xsi:type="editmodel:LabelEditModel" location="860,195" size="0,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.praveen.resources/ChessPiece@width+com.praveen.utils/ChessLayout@" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="width" location="139,61" id="com.praveen.resources/ChessPiece@width+com.praveen.utils/ChessLayout@|com.praveen.resources/ChessPiece#width" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.3/@sourceConnections.2/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - width" location="656,160" size="37,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="656,188" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,162" id="com.praveen.resources/ChessPiece@width+com.praveen.utils/ChessLayout@|com.praveen.utils/ChessLayout#" roleLabel="//@children.3/@sourceConnections.2/@children.2/@children.1">
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="valueOf" location="867,181" size="53,23" id=""/>
+        <children xsi:type="editmodel:LabelEditModel" location="860,171" size="0,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2" name="NullPiece" location="1095,615" size="139,99" id="com.praveen.resources/NullPiece" runTimeClassModel="canAttackPosition(II),getSymbol()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,36">
+      <children xsi:type="editmodel:MethodEditModel" name="canAttackPosition" id="com.praveen.resources/NullPiece#canAttackPosition(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSymbol" id="com.praveen.resources/NullPiece#getSymbol()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.resources/NullPiece->com.praveen.utils/AbstractChessPiece" source="//@children.4" target="//@children.7" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,23" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="166,118"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.praveen.utils/AbstractChessPiece&lt;-com.praveen.resources/NullPiece" source="//@children.4" target="//@children.8/@sourceConnections.1" targetEnd="//@children.4/@sourceConnections.1/@children.1" sourceEnd="//@children.4/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="King" location="930,615" size="139,99" id="com.praveen.resources/King" runTimeClassModel="canAttackPosition(II),getSymbol()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,36">
+      <children xsi:type="editmodel:MethodEditModel" name="canAttackPosition" id="com.praveen.resources/King#canAttackPosition(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSymbol" id="com.praveen.resources/King#getSymbol()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.resources/King->com.praveen.utils/AbstractChessPiece" source="//@children.5" target="//@children.7" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,12" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="166,131"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.praveen.utils/AbstractChessPiece&lt;-com.praveen.resources/King" source="//@children.5" target="//@children.8/@sourceConnections.1" targetEnd="//@children.5/@sourceConnections.1/@children.1" sourceEnd="//@children.5/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Queen" location="585,615" size="139,99" id="com.praveen.resources/Queen" runTimeClassModel="getSymbol(),canAttackPosition(II)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,36">
+      <children xsi:type="editmodel:MethodEditModel" name="canAttackPosition" id="com.praveen.resources/Queen#canAttackPosition(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSymbol" id="com.praveen.resources/Queen#getSymbol()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.resources/Queen->com.praveen.utils/AbstractChessPiece" source="//@children.6" target="//@children.7" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="52,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,175"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.praveen.utils/AbstractChessPiece&lt;-com.praveen.resources/Queen" source="//@children.6" target="//@children.8/@sourceConnections.1" targetEnd="//@children.6/@sourceConnections.1/@children.1" sourceEnd="//@children.6/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0 //@children.8/@sourceConnections.1 //@children.10/@sourceConnections.0 //@children.6/@sourceConnections.0 //@children.9/@sourceConnections.0 //@children.5/@sourceConnections.0 //@children.4/@sourceConnections.0" name="AbstractChessPiece" location="525,369" size="166,175" id="com.praveen.utils/AbstractChessPiece" runTimeClassModel="column,hashCode(),equals(Ljava.lang.Object;),getSymbol(),AbstractChessPiece(),row,toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="70,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="column" id="com.praveen.utils/AbstractChessPiece#column"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="row" id="com.praveen.utils/AbstractChessPiece#row"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,90">
+      <children xsi:type="editmodel:MethodEditModel" name="AbstractChessPiece" id="com.praveen.utils/AbstractChessPiece#AbstractChessPiece()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="com.praveen.utils/AbstractChessPiece#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSymbol" id="com.praveen.utils/AbstractChessPiece#getSymbol()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="com.praveen.utils/AbstractChessPiece#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="com.praveen.utils/AbstractChessPiece#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.utils/AbstractChessPiece->com.praveen.resources/ChessPiece*com.praveen.utils/AbstractChessPiece-Soyatec::Implement->com.praveen.resources/ChessPiece" source="//@children.7" target="//@children.3" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="61,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="76,185"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.praveen.resources/ChessPiece&lt;-com.praveen.utils/AbstractChessPiece" source="//@children.7" target="//@children.3" targetEnd="//@children.7/@sourceConnections.1/@children.1" sourceEnd="//@children.7/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,185"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Rook" location="240,615" size="139,99" id="com.praveen.resources/Rook" runTimeClassModel="canAttackPosition(II),getSymbol()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,36">
+      <children xsi:type="editmodel:MethodEditModel" name="canAttackPosition" id="com.praveen.resources/Rook#canAttackPosition(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSymbol" id="com.praveen.resources/Rook#getSymbol()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.resources/Rook->com.praveen.utils/AbstractChessPiece" source="//@children.8" target="//@children.7" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="139,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,145"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.10/@sourceConnections.1 //@children.6/@sourceConnections.1 //@children.9/@sourceConnections.1 //@children.5/@sourceConnections.1 //@children.4/@sourceConnections.1" autoLocated="true" id="com.praveen.utils/AbstractChessPiece&lt;-com.praveen.resources/Rook" source="//@children.8" target="//@children.7" targetEnd="//@children.8/@sourceConnections.1/@children.1" sourceEnd="//@children.8/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="139,8" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,134" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Bishop" location="765,615" size="139,99" id="com.praveen.resources/Bishop" runTimeClassModel="canAttackPosition(II),getSymbol()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,36">
+      <children xsi:type="editmodel:MethodEditModel" name="canAttackPosition" id="com.praveen.resources/Bishop#canAttackPosition(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSymbol" id="com.praveen.resources/Bishop#getSymbol()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.resources/Bishop->com.praveen.utils/AbstractChessPiece" source="//@children.9" target="//@children.7" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="16,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="166,163"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.praveen.utils/AbstractChessPiece&lt;-com.praveen.resources/Bishop" source="//@children.9" target="//@children.8/@sourceConnections.1" targetEnd="//@children.9/@sourceConnections.1/@children.1" sourceEnd="//@children.9/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Knight" location="420,615" size="139,99" id="com.praveen.resources/Knight" runTimeClassModel="canAttackPosition(II),getSymbol()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,36">
+      <children xsi:type="editmodel:MethodEditModel" name="canAttackPosition" id="com.praveen.resources/Knight#canAttackPosition(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSymbol" id="com.praveen.resources/Knight#getSymbol()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.praveen.resources/Knight->com.praveen.utils/AbstractChessPiece" source="//@children.10" target="//@children.7" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="121,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="16,175"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.praveen.utils/AbstractChessPiece&lt;-com.praveen.resources/Knight" source="//@children.10" target="//@children.8/@sourceConnections.1" targetEnd="//@children.10/@sourceConnections.1/@children.1" sourceEnd="//@children.10/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

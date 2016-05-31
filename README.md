@@ -8,11 +8,7 @@ When returning your solution, please provide with your answer the total number o
 
 
 
-Examples
-
-Input: 3×3 board containing 2 Kings and 1 Rook.
--------------------------------------------------------------------
-Assuming that Ant 1.9.x is installed on the system, 
+Assuming that Ant 1.9.x & JRE 1.7 are installed on the system, 
 type ant on the root directory of the project to run the program.
 
 
