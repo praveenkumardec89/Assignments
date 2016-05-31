@@ -13,21 +13,4 @@ When returning your solution, please provide with your answer the total number o
 Examples
 
 Input: 3×3 board containing 2 Kings and 1 Rook.
-Output:
-K	 	K		K	 	 		 	 	K		 	R	 
- 	 	 		 	 	R		R	 	 		 	 	 
- 	R	 		K	 	 		 	 	K		K	 	K
- 
-
-Input: 4×4 board containing 2 Rooks and 4 Knights.
-Output:
- 	N	 	N		 	N	 	N		R	 	 	 		 	 	R	 
- 	 	R	 		R	 	 	 		 	N	 	N		 	N	 	N
- 	N	 	N		 	N	 	N		 	 	R	 		R	 	 	 
-R	 	 	 		 	 	R	 		 	N	 	N		 	N	 	N
-																		
- 	R	 	 		 	 	 	R		N	 	N	 		N	 	N	 
-N	 	N	 		N	 	N	 		 	 	 	R		 	R	 	 
- 	 	 	R		 	R	 	 		N	 	N	 		N	 	N	 
-N	 	N	 		N	 	N	 		 	R	 	 		 	 	 	R
 
