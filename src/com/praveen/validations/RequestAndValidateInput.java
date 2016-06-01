@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
+import com.praveen.controller.GenerateLayouts;
 import com.praveen.resources.Bishop;
 import com.praveen.resources.ChessPiece;
 import com.praveen.resources.King;
@@ -20,6 +21,7 @@ public class RequestAndValidateInput {
 	Pattern piecePattern = Pattern.compile("^[0-9]+$");
 	public static ChessPiece[] pieceArray ;
 	public static int pieceCount =0;
+	public static String[] args ={};
 	
 	public static void requestForInput() {		
 		 
@@ -42,12 +44,12 @@ public class RequestAndValidateInput {
 				
 			}else{				
 				System.out.println("invalid dimensions");
-				requestForInput();
+				GenerateLayouts.main(args);
 			}
 			
 		}catch(Exception io){
 			System.out.println("Invalid input");
-			requestForInput();
+			GenerateLayouts.main(args);
 			
 		}					
 	}
@@ -55,10 +57,14 @@ public class RequestAndValidateInput {
 	public static void isPossibleWithPieces(int width, int height, int count) {
 		if(count>(width*height)){
 			System.out.println("The maximum number of pieces can be placed on Board is:"+(width*height)+"\n");
-			System.out.println("You have placed:"+count+"no unique layouts are possible\n");
+			System.out.println("You have placed:"+count+"  no unique layouts are possible\n");
 			System.out.println("Please Re-enter the details..\n");
+			GenerateLayouts.main(args);
+		}else{
+			
+			System.out.println("Generating Layouts.......\n");
 		}
-		requestForInput();
+		
 		
 	}
 	public static void addPiece(int count, String pieceType){
@@ -132,6 +138,18 @@ public class RequestAndValidateInput {
 
 	public static void setDimensions(String dimensions) {
 		RequestAndValidateInput.dimensions = dimensions;
+	}
+
+	public static void resetConfiguration() {
+		
+		 dimensions = null;
+		 piecesList.clear();	
+		 pieceArray = null;
+		 pieceCount =0;
+		 args = null;
+		
+		
+		
 	}
 
 
