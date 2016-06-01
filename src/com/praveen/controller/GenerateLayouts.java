@@ -1,5 +1,8 @@
 package com.praveen.controller;
 
+import java.util.List;
+
+import com.praveen.resources.ChessPiece;
 import com.praveen.utils.ChessBoard;
 import com.praveen.utils.Results;
 import com.praveen.validations.RequestAndValidateInput;
@@ -14,7 +17,8 @@ public class GenerateLayouts {
 		try{		
 			input.requestForInput();
 			input.setPieceArray(input.piecesList);
-			String[] parts = input.getDimensions().split(",");		
+			String[] parts = input.getDimensions().split(",");	
+			input.isPossibleWithPieces(Integer.parseInt(parts[0]),Integer.parseInt(parts[1]),input.piecesList.size());
 			ChessBoard chessBoard = new ChessBoard(Integer.parseInt(parts[0]),Integer.parseInt(parts[1]) , input.pieceArray);		
 			long begin = System.currentTimeMillis();	
 			Results results = chessBoard.searchLayouts();			
@@ -34,4 +38,6 @@ public class GenerateLayouts {
 	}
 		
 	}
+
+	
 }
