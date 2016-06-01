@@ -19,6 +19,7 @@ public class RequestAndValidateInput {
 	Pattern dimensionPattern = Pattern.compile("^[0-9],[0-9]+$");
 	Pattern piecePattern = Pattern.compile("^[0-9]+$");
 	public static ChessPiece[] pieceArray ;
+	public static int pieceCount =0;
 	
 	public static void requestForInput() {		
 		 
@@ -39,7 +40,6 @@ public class RequestAndValidateInput {
 				System.out.println("\nenter number of Knights: \t");
 				addPiece(console.nextInt(),"Knight");				
 				
-				
 			}else{				
 				System.out.println("invalid dimensions");
 				requestForInput();
@@ -52,7 +52,15 @@ public class RequestAndValidateInput {
 		}					
 	}
 	
-	
+	public static void isPossibleWithPieces(int width, int height, int count) {
+		if(count>(width*height)){
+			System.out.println("The maximum number of pieces can be placed on Board is:"+(width*height)+"\n");
+			System.out.println("You have placed:"+count+"no unique layouts are possible\n");
+			System.out.println("Please Re-enter the details..\n");
+		}
+		requestForInput();
+		
+	}
 	public static void addPiece(int count, String pieceType){
 		
 		if(count !=0){	
