@@ -47,7 +47,6 @@ public class RequestAndValidateInput {
 			
 		}catch(Exception io){
 			System.out.println("Invalid input");
-			io.printStackTrace();
 			requestForInput();
 			
 		}					
