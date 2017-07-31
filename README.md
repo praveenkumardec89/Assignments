@@ -13,7 +13,7 @@ The problem is to find all unique configurations of a set of normal chess pieces
 
 Program should list all the unique configurations to the console for which all of the pieces can be placed on the board without threatening each other.
 
-hashing and tracking back the previous positions is the main problem in this problem
+hashing and tracking back the previous positions is the main problem to obtain the solution
 
 Assuming that Ant 1.9.x & JRE 1.7 are installed on the system, 
 type ant on the root directory of the project to run the program.
